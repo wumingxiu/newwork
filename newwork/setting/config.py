@@ -1,0 +1,5 @@
+import os
+
+MODBUS_PORT = None
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print('BASE_DIR' + BASE_DIR)
